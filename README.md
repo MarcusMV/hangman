@@ -10,7 +10,7 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 * Check if the guessed character is in the randomly selected word
 
 ## Milestone 4
-### Class hangman
+### Class Hangman
 
 Attributes:
 
@@ -26,4 +26,7 @@ Methods:
 * check_guess
 * ask_for_input
 
-Create instance by passing in word_list and call ask_for_input to start game
+## Milestone 5
+
+* play_game function creates instance of class Hangman
+* Call play_game and pass in word_list as argument to start game
