@@ -8,3 +8,22 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 
 ## Milestone 3
 * Check if the guessed character is in the randomly selected word
+
+## Milestone 4
+### Class hangman
+
+Attributes:
+
+* word
+* word_guessed
+* num_letters
+* num_lives
+* word_list
+* list_of_guesses
+
+Methods:
+
+* check_guess
+* ask_for_input
+
+Create instance by passing in word_list and call ask_for_input to start game
