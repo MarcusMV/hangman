@@ -2,7 +2,7 @@
 # import re
 
 word_list = ['apples', 'guavas', 'bananas', 'pears', 'blueberries']
-print(word_list )
+print(word_list)
 
 # word = random.choice(word_list)
 # print(word)
