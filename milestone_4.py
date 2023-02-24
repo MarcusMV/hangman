@@ -33,6 +33,7 @@ class Hangman:
                 self.check_guess(guess)
                 print(self.word_guessed)
             self.list_of_guesses.append(guess)
+            break
 
 game_one = Hangman(['apple', 'cherry'])
 game_one.ask_for_input()
