@@ -37,6 +37,28 @@ Methods:
 * check_guess
 * ask_for_input
 
+Convert the guessed letter to lower case
+
+Create an if statement that checks if the guess is in the word
+
+In the body of the if statement, print a message saying "Good guess! {guess} is in the word."
+
+You will continue with the logic of the check_guess method in the next task. For now, let's create the ask_for_input method.
+
+Step 2. define a method called ask_for_input. In the body of the method, do the following:
+
+Create a while loop and set the condition to True.
+
+Ask the user to guess a letter and assign this to a variable called guess.
+
+Create an if statement that runs if the guess is NOT a single alphabetical character.
+
+In the body of the if statement, print a message saying "Invalid letter. Please, enter a single alphabetical character."
+
+Create an elif statement that checks if the guess is already in the list_of_guesses.
+
+In the body of the elif statement, print a message saying "You already tried that letter!".
+
 ## Milestone 5
 
 * play_game function creates instance of class Hangman
