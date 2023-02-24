@@ -1,5 +1,5 @@
 import random
-# import re
+import re
 
 word_list = ['apples', 'guavas', 'bananas', 'pears', 'blueberries']
 #print(word_list)
@@ -13,5 +13,5 @@ while True:
         print('Good guess!')
         break
     else:
-        print('Sorry, this is not a valid input.')
+        print('Oops! That is not a vl')
         continue
