@@ -12,7 +12,7 @@ class Hangman:
     def check_guess(self, guess):
         letter = guess.lower()
         if letter in self.word:
-            print(f'Good guess! {guess} is in the word.')
+            print(f'Good guess! {letter} is in the word.')
             
             for i, v in enumerate(self.word):
                 if v == letter:
