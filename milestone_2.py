@@ -1,11 +1,11 @@
-# import random
+import random
 # import re
 
 word_list = ['apples', 'guavas', 'bananas', 'pears', 'blueberries']
-print(word_list)
+#print(word_list)
 
-# word = random.choice(word_list)
-# print(word)
+word = random.choice(word_list)
+print(word)
 
 # while True:
 #     guess = input('Enter a single letter: ')
